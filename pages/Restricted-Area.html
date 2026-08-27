@@ -3,192 +3,509 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TanSonNhat English Curriculum</title>
+    <title>Entrance</title>
     <link rel="stylesheet" href="../index.css" />
-    <img src="D:\1. A08\English-Web-2\T2-TSN-Map.jpg" alt="">
   </head>
 
   <body>
      <div class="hero-text">
-        <img src="A08Logo.jpg" alt="Test" id="A08Logo">
-          
-        <p class="eyebrow" id = "headertitle">CUSTOMS AREA</p>
-        <nav class="top-nav">
+       
+          <nav class="top-nav">
           <div class="nav-links">
             <ul id ="main-menu">
-              <li><a class="T1-btn" href="../index.html">Home</a></li>
+              <li><a class="Back-btn" href="../index.html">⬅ Home </a></li>
+              <li><a class = "Next-btn" href="Entrance.html"> Next area ➡ </a></li>
               <!--<li><a class="T2-btn" href="#T2-TSN-Map">T2 Terminal</a></li>
               <li><a class="T3-btn" href="pages/Quiz.html">T3 Terminal</a></li>-->
             </ul>
           </div>
         </nav>
       </div>
-  </header>
-    <div id = "banner"></div> 
- 
-    <main>
-      <section id="vocabularies" class="vocabularies">
-        <div class = "Header">
-          <h2>Nhóm giấy tờ & Thủ tục</h2>
-          <h2>Documents & Procedures</h2>
-        </div>
-        
+      <div class = "Icon">
+        <img src="Restricted-Area.jpg" style="width: min(100%, 150px); height: auto; margin-left: 10px; margin-right: 10px;" alt="Entrance" />
+      </div>
 
-        <div class="card-grid">
-          <article class="scene-card">
-            <div class="scene-illustration"></div>
-              <img src = "Passport.jpg" width="100px" height="auto" >
-            <h2>Passport</h2>
-            <h2>/ˈpæspɔːrt/</h2>
-            <h2>Hộ chiếu</h2>       
-            <button class="speak-btn" data-text="Passport">🔊 Listen</button>
-          </article>
+      <li class="eyebrow" id = "headertitle"></li>
 
-          <article class="scene-card">
-            <div class="scene-illustration"></div>
-            <img src="Visa.png" width="100px" height="auto">
-            <h2>Visa</h2>
-            <h2>/ˈviːzə/</h2>
-            <h2>Thị thực</h2>
-                        <button class="speak-btn" data-text="Visa">🔊 Listen</button>
-            <button class="speak-btn secondary" data-text="...">
-              🔊 Listen
-            </button>
-          </article>
 
-          <article class="scene-card">
-            <div class="scene-illustration"></div>
-            <h2>Entry permit</h2>
-            <h2>/ˈɛntri pərˌmɪt/</h2>
-            <h2>Giấy phép nhập cảnh</h2>
+      
+    
+    <!--<div id = "banner"></div>-->
+    <div class="search-container">  
+      <div class="search-controls">
+        <!--<label for ="searchBox" style = "display: block; margin-bottom: 6px; font-weight: bold; align-items: center; text-align: center">Tìm kiếm</label>-->
+        <input type="text" id = "searchBox" class="search-box" placeholder= "Tìm kiếm..." style = "display: block; align-items: center; text-align: center;" />
+        <button id="searchButton" class = "search-btn">Tìm</button>
+        <button id = "clearFilterBtn" class = "clear-btn">Làm mới</button>
+      </div>
+    </div> 
+
+    <div class = "table-wrap">
+      <table>
+        <tr>
+          <td>
+            <section id="vocabularies" class="vocabularies">         
+              <div class="card-grid-P1">
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Stop there.</h2>
+                  <h2>/stɑp ðɛɹ/</h2>
+                  <h4>Dừng lại ở đó.</h4>
+                  <button class="speak-btn" data-text="Stop there.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Do not enter this area.</h2>
+                  <h2>/du nɑt ˈɛntɚ ðɪs ˈɛɹiə/</h2>
+                  <h4>Không được vào khu vực này.</h4>
+                  <button class="speak-btn" data-text="Do not enter this area.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>This is a restricted area.</h2>
+                  <h2>/ðɪs ɪz ə ɹiˈstɹɪktəd ˈɛɹiə/</h2>
+                  <h4>Đây là khu vực hạn chế.</h4>
+                  <button class="speak-btn" data-text="This is a restricted area.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Authorized personnel only.</h2>
+                  <h2>/ˈɔθɚˌaɪzd ˌpɝsəˈnɛl ˈoʊnli/</h2>
+                  <h4>Chỉ người có thẩm quyền mới được vào.</h4>
+                  <button class="speak-btn" data-text="Authorized personnel only.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please show your airport identification card.</h2>
+                  <h2>/pliz ʃoʊ jɔɹ ˈɛɹˌpɔɹt aɪˌdɛntəfəˈkeɪʃən kɑɹd/</h2>
+                  <h4>Vui lòng xuất trình thẻ kiểm soát an ninh sân bay.</h4>
+                  <button class="speak-btn" data-text="Please show your airport identification card.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please show your vehicle permit.</h2>
+                  <h2>/pliz ʃoʊ jɔɹ ˈvihɪkəl pɚˈmɪt/</h2>
+                  <h4>Vui lòng xuất trình giấy phép phương tiện.</h4>
+                  <button class="speak-btn" data-text="Please show your vehicle permit.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Your permit is not valid for this zone.</h2>
+                  <h2>/jɔɹ pɚˈmɪt ɪz nɑt ˈvælɪd fɔɹ ðɪs zoʊn/</h2>
+                  <h4>Giấy phép của anh/chị không có giá trị tại khu vực này.</h4>
+                  <button class="speak-btn" data-text="Your permit is not valid for this zone.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please use the authorized access point.</h2>
+                  <h2>/pliz jus ðə ˈɔθɚˌaɪzd ˈækˌsɛs pɔɪnt/</h2>
+                  <h4>Vui lòng sử dụng điểm ra vào được phép.</h4>
+                  <button class="speak-btn" data-text="Please use the authorized access point.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please close the gate behind you.</h2>
+                  <h2>/pliz kloʊs ðə ɡeɪt bɪˈhaɪnd ju/</h2>
+                  <h4>Vui lòng đóng cổng sau khi đi qua.</h4>
+                  <button class="speak-btn" data-text="Please close the gate behind you.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P1">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Do not allow anyone to follow you through the gate.</h2>
+                  <h2>/du nɑt əˈlaʊ ˈɛniˌwʌn tu ˈfɑloʊ ju θɹu ðə ɡeɪt/</h2>
+                  <h4>Không để người khác đi theo anh/chị qua cổng.</h4>
+                  <button class="speak-btn" data-text="Do not allow anyone to follow you through the gate.">🔊 Listen</button>
+                </article>
+
+
+
+              
+              <div class="card-grid-P2"></div>
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please report any unauthorized person.</h2>
+                  <h2>/pliz ɹiˈpɔɹt ˈɛni əˈnɔθɚˌaɪzd ˈpɝsən/</h2>
+                  <h4>Vui lòng báo ngay người không có thẩm quyền.</h4>
+                  <button class="speak-btn" data-text="Please report any unauthorized person.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please remain on the marked route.</h2>
+                  <h2>/pliz ɹɪˈmeɪn ɑn ðə mɑɹkt ɹut/</h2>
+                  <h4>Vui lòng đi đúng tuyến được đánh dấu.</h4>
+                  <button class="speak-btn" data-text="Please remain on the marked route.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Do not cross the red line.</h2>
+                  <h2>/du nɑt kɹɔs ðə ɹɛd laɪn/</h2>
+                  <h4>Không vượt qua vạch đỏ.</h4>
+                  <button class="speak-btn" data-text="Do not cross the red line.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Keep away from the aircraft.</h2>
+                  <h2>/kip əˈweɪ fɹʌm ðə ˈɛɹˌkɹæft/</h2>
+                  <h4>Giữ khoảng cách với tàu bay.</h4>
+                  <button class="speak-btn" data-text="Keep away from the aircraft.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Keep clear of the aircraft engines.</h2>
+                  <h2>/kip klɪɹ ʌv ðə ˈɛɹˌkɹæft ˈɛndʒənz/</h2>
+                  <h4>Tránh xa động cơ tàu bay.</h4>
+                  <button class="speak-btn" data-text="Keep clear of the aircraft engines.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Keep clear of the propeller.</h2>
+                  <h2>/kip klɪɹ ʌv ðə pɹəˈpɛlɚ/</h2>
+                  <h4>Tránh xa cánh quạt.</h4>
+                  <button class="speak-btn" data-text="Keep clear of the propeller.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Stay outside the safety zone.</h2>
+                  <h2>/steɪ ˈaʊtˈsaɪd ðə ˈseɪfti zoʊn/</h2>
+                  <h4>Ở bên ngoài vùng an toàn.</h4>
+                  <button class="speak-btn" data-text="Stay outside the safety zone.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Do not walk under the aircraft wing.</h2>
+                  <h2>/du nɑt wɔk ˈʌndɚ ðə ˈɛɹˌkɹæft wɪŋ/</h2>
+                  <h4>Không đi dưới cánh tàu bay.</h4>
+                  <button class="speak-btn" data-text="Do not walk under the aircraft wing.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Do not approach the aircraft without permission.</h2>
+                  <h2>/du nɑt əˈpɹoʊtʃ ðə ˈɛɹˌkɹæft wɪˈθaʊt pɚˈmɪʃən/</h2>
+                  <h4>Không tiếp cận tàu bay khi chưa được phép.</h4>
+                  <button class="speak-btn" data-text="Do not approach the aircraft without permission.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please wear your high-visibility vest.</h2>
+                  <h2>/pliz wɛɹ jɔɹ haɪ ˌvɪzəˈbɪlɪti vɛst/</h2>
+                  <h4>Vui lòng mặc áo phản quang.</h4>
+                  <button class="speak-btn" data-text="Please wear your high-visibility vest.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please wear hearing protection.</h2>
+                  <h2>/pliz wɛɹ ˈhiɹɪŋ pɹəˈtɛkʃən/</h2>
+                  <h4>Vui lòng đeo thiết bị bảo vệ thính giác.</h4>
+                  <button class="speak-btn" data-text="Please wear hearing protection.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please use the pedestrian walkway.</h2>
+                  <h2>/pliz jus ðə pəˈdɛstɹiən ˈwɔˌkweɪ/</h2>
+                  <h4>Vui lòng đi trên lối dành cho người đi bộ.</h4>
+                  <button class="speak-btn" data-text="Please use the pedestrian walkway.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Watch for moving vehicles.</h2>
+                  <h2>/wɑtʃ fɔɹ ˈmuvɪŋ ˈvihɪkəlz/</h2>
+                  <h4>Chú ý các phương tiện đang di chuyển.</h4>
+                  <button class="speak-btn" data-text="Watch for moving vehicles.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Give way to the aircraft.</h2>
+                  <h2>/ɡɪv weɪ tu ðə ˈɛɹˌkɹæft/</h2>
+                  <h4>Nhường đường cho tàu bay.</h4>
+                  <button class="speak-btn" data-text="Give way to the aircraft.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Give way to emergency vehicles.</h2>
+                  <h2>/ɡɪv weɪ tu ɪˈmɝdʒənsi ˈvihɪkəlz/</h2>
+                  <h4>Nhường đường cho xe ưu tiên khẩn cấp.</h4>
+                  <button class="speak-btn" data-text="Give way to emergency vehicles.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please stop at the checkpoint.</h2>
+                  <h2>/pliz stɑp æt ðə ˈtʃɛkˌpɔɪnt/</h2>
+                  <h4>Vui lòng dừng tại chốt kiểm soát.</h4>
+                  <button class="speak-btn" data-text="Please stop at the checkpoint.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please switch off the engine.</h2>
+                  <h2>/pliz swɪtʃ ɔf ðə ˈɛndʒən/</h2>
+                  <h4>Vui lòng tắt động cơ.</h4>
+                  <button class="speak-btn" data-text="Please switch off the engine.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please apply the parking brake.</h2>
+                  <h2>/pliz əˈplaɪ ðə ˈpɑɹkɪŋ bɹeɪk/</h2>
+                  <h4>Vui lòng kéo phanh đỗ.</h4>
+                  <button class="speak-btn" data-text="Please apply the parking brake.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please remove the key from the vehicle.</h2>
+                  <h2>/pliz ɹiˈmuv ðə ki fɹʌm ðə ˈvihɪkəl/</h2>
+                  <h4>Vui lòng rút chìa khóa khỏi phương tiện.</h4>
+                  <button class="speak-btn" data-text="Please remove the key from the vehicle.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P2">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please move the vehicle to the designated bay.</h2>
+                  <h2>/pliz muv ðə ˈvihɪkəl tu ðə ˈdɛzɪɡˌneɪtɪd beɪ/</h2>
+                  <h4>Vui lòng di chuyển phương tiện đến vị trí đỗ quy định.</h4>
+                  <button class="speak-btn" data-text="Please move the vehicle to the designated bay.">🔊 Listen</button>
+                </article>
+
+              </div>
+
+              <div class = "card-grid-P3">            
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Do not park in front of the emergency exit.</h2>
+                  <h2>/du nɑt pɑɹk ɪn fɹʌnt ʌv ðə ɪˈmɝdʒənsi ˈɛɡzɪt/</h2>
+                  <h4>Không đỗ xe trước lối thoát khẩn cấp.</h4>
+                  <button class="speak-btn" data-text="Do not park in front of the emergency exit.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Do not leave the vehicle unattended.</h2>
+                  <h2>/du nɑt liv ðə ˈvihɪkəl ənəˈtɛndɪd/</h2>
+                  <h4>Không để phương tiện không có người trông coi.</h4>
+                  <button class="speak-btn" data-text="Do not leave the vehicle unattended.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please observe the speed limit.</h2>
+                  <h2>/pliz əbˈzɝv ðə spid ˈlɪmət/</h2>
+                  <h4>Vui lòng tuân thủ giới hạn tốc độ.</h4>
+                  <button class="speak-btn" data-text="Please observe the speed limit.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Slow down near the aircraft.</h2>
+                  <h2>/sloʊ daʊn nɪɹ ðə ˈɛɹˌkɹæft/</h2>
+                  <h4>Giảm tốc độ khi ở gần tàu bay.</h4>
+                  <button class="speak-btn" data-text="Slow down near the aircraft.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please turn on the warning lights.</h2>
+                  <h2>/pliz tɝn ɑn ðə ˈwɔɹnɪŋ laɪts/</h2>
+                  <h4>Vui lòng bật đèn cảnh báo.</h4>
+                  <button class="speak-btn" data-text="Please turn on the warning lights.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please secure the load.</h2>
+                  <h2>/pliz sɪkˈjʊɹ ðə loʊd/</h2>
+                  <h4>Vui lòng chằng buộc hàng hóa an toàn.</h4>
+                  <button class="speak-btn" data-text="Please secure the load.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>The equipment is outside the safety line.</h2>
+                  <h2>/ðə ɪˈkwɪpmənt ɪz ˈaʊtˈsaɪd ðə ˈseɪfti laɪn/</h2>
+                  <h4>Thiết bị đang ở ngoài vạch an toàn.</h4>
+                  <button class="speak-btn" data-text="The equipment is outside the safety line.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Move the equipment away from the aircraft.</h2>
+                  <h2>/muv ðə ɪˈkwɪpmənt əˈweɪ fɹʌm ðə ˈɛɹˌkɹæft/</h2>
+                  <h4>Di chuyển thiết bị ra xa tàu bay.</h4>
+                  <button class="speak-btn" data-text="Move the equipment away from the aircraft.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Foreign object debris has been found.</h2>
+                  <h2>/ˈfɔɹən ˈɑbdʒɛkt dəˈbɹi hæz bɪn faʊnd/</h2>
+                  <h4>Đã phát hiện vật thể lạ trên sân đậu.</h4>
+                  <button class="speak-btn" data-text="Foreign object debris has been found.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Please remove the foreign object safely.</h2>
+                  <h2>/pliz ɹiˈmuv ðə ˈfɔɹən ˈɑbdʒɛkt ˈseɪfli/</h2>
+                  <h4>Vui lòng loại bỏ vật thể lạ một cách an toàn.</h4>
+                  <button class="speak-btn" data-text="Please remove the foreign object safely.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Report any fuel spill immediately.</h2>
+                  <h2>/ɹiˈpɔɹt ˈɛni ˈfjuəl spɪl ˌɪˈmiˌdiətli/</h2>
+                  <h4>Báo ngay mọi sự cố tràn nhiên liệu.</h4>
+                  <button class="speak-btn" data-text="Report any fuel spill immediately.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>There is a fuel spill near the aircraft.</h2>
+                  <h2>/ðɛɹ ɪz ə ˈfjuəl spɪl nɪɹ ðə ˈɛɹˌkɹæft/</h2>
+                  <h4>Có nhiên liệu bị tràn gần tàu bay.</h4>
+                  <button class="speak-btn" data-text="There is a fuel spill near the aircraft.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Do not use an open flame.</h2>
+                  <h2>/du nɑt jus æn ˈoʊpən fleɪm/</h2>
+                  <h4>Không sử dụng ngọn lửa trần.</h4>
+                  <button class="speak-btn" data-text="Do not use an open flame.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Smoking is strictly prohibited here.</h2>
+                  <h2>/ˈsmoʊkɪŋ ɪz ˈstɹɪktli pɹoʊˈhɪbətəd hiɹ/</h2>
+                  <h4>Nghiêm cấm hút thuốc tại đây.</h4>
+                  <button class="speak-btn" data-text="Smoking is strictly prohibited here.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Activate the emergency stop.</h2>
+                  <h2>/ˈæktəˌveɪt ðə ɪˈmɝdʒənsi stɑp/</h2>
+                  <h4>Kích hoạt nút dừng khẩn cấp.</h4>
+                  <button class="speak-btn" data-text="Activate the emergency stop.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Call the airport emergency center.</h2>
+                  <h2>/kɔl ðə ˈɛɹˌpɔɹt ɪˈmɝdʒənsi ˈsɛntɚ/</h2>
+                  <h4>Gọi trung tâm khẩn nguy sân bay.</h4>
+                  <button class="speak-btn" data-text="Call the airport emergency center.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Follow the emergency response plan.</h2>
+                  <h2>/ˈfɑloʊ ðə ɪˈmɝdʒənsi ɹɪˈspɑns plæn/</h2>
+                  <h4>Thực hiện theo phương án ứng phó khẩn cấp.</h4>
+                  <button class="speak-btn" data-text="Follow the emergency response plan.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Evacuate by the marked route.</h2>
+                  <h2>/ɪˈvækjəˌeɪt baɪ ðə mɑɹkt ɹut/</h2>
+                  <h4>Sơ tán theo tuyến được đánh dấu.</h4>
+                  <button class="speak-btn" data-text="Evacuate by the marked route.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Proceed to the assembly point.</h2>
+                  <h2>/pɹəˈsid tu ðə əˈsɛmbli pɔɪnt/</h2>
+                  <h4>Di chuyển đến điểm tập kết.</h4>
+                  <button class="speak-btn" data-text="Proceed to the assembly point.">🔊 Listen</button>
+                </article>
+
+                <article class="scene-card-P3">
+                  <div class="scene-illustration"><img src="" width="auto" height="100px"></div>
+                  <h2>Wait for the all-clear signal.</h2>
+                  <h2>/weɪt fɔɹ ðə ɔl klɪɹ ˈsɪɡnəl/</h2>
+                  <h4>Chờ tín hiệu xác nhận an toàn.</h4>
+                  <button class="speak-btn" data-text="Wait for the all-clear signal.">🔊 Listen</button>
+                </article>
             
-            <p>...</p>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-            <button class="speak-btn" data-text="What time does boarding begin?">🔊 Listen</button>
-            <button class="speak-btn secondary" data-text="Is this the gate for Flight 204?">
-              🔊 Listen
-            </button>
-          </article>
+              </div>
+            </section>
+          </td>
+        </tr>
+      </table>
 
-          <article class="scene-card">
-            <div class="scene-illustration">🧺</div>
-            <h2>Exit permit</h2>
-            <h2>/ˈɛksɪt pərˌmɪt/</h2>
-            <h2>Giấy phép xuất cảnh</h2>
-            <p>...</p>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-            <button class="speak-btn" data-text="...">🔊 Listen</button>
-            <button class="speak-btn secondary" data-text="...">
-              🔊 Listen
-            </button>
-          </article>
+ 
 
-          <article class="scene-card">
-            <div class="scene-illustration">🛃</div>
-            <h2>Arrival card</h2>
-            <h2>/əˈraɪvəl kɑːrd/</h2>
-            <h2>Tờ khai nhập cảnh</h2>
-            <p>...</p>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-            <button class="speak-btn" data-text="...">🔊 Listen</button>
-            <button class="speak-btn secondary" data-text="...">
-              🔊 Listen
-            </button>
-          </article>
+<script>
+      const searchBox = document.getElementById("searchBox");
+      const searchButton = document.getElementById("searchButton");
+      const clearFilterBtn = document.getElementById("clearFilterBtn");
 
-          <article class="scene-card">
-            <div class="scene-illustration">🧭</div>
-            <h2>Departure card</h2>
-            <h2>/dɪˈpɑːrtʃər kɑːrd/</h2>
-            <h2>Tờ khai xuất cảnh</h2>
-            <p></p>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-            <button class="speak-btn" data-text="...">🔊 Listen</button>
-            <button class="speak-btn secondary" data-text="...">
-              🔊 Listen
-            </button>
-          </article>
+      // Get all vocabulary cards
+      const cards = document.querySelectorAll(".card-grid-P1 article, .card-grid-P2 article, .card-grid-P3 article"
+      );
 
-            <article class="scene-card">
-            <div class="scene-illustration">🪑</div>
-            <h2>Declaration form</h2>
-            <h2>/ˌdɛkləˈreɪʃən fɔːrm/</h2>
-            <h2>Tờ khai hải quan</h2>
-            <p>...</p>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-            <button class="speak-btn" data-text="...">🔊 Listen</button>
-            <button class="speak-btn secondary" data-text="...">
-              🔊 Listen
-            </button>
-          </article>
+      function applyFilters() {
+        const textQuery = searchBox.value.trim().toLowerCase();
 
-          <article class="scene-card">
-            <div class="scene-illustration">🪑</div>
-            <h2>Work permit</h2>
-            <h2>/ˈwɜːrk pərˌmɪt/</h2>
-            <h2>Giấy phép lao động</h2>
-            <p>...</p>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-            <button class="speak-btn" data-text="...">🔊 Listen</button>
-            <button class="speak-btn secondary" data-text="...">
-              🔊 Listen
-            </button>
-          </article>
+        cards.forEach(card => {
+          const cardText = card.textContent.toLowerCase();
 
-          <article class="scene-card">
-            <div class="scene-illustration">🪑</div>
-            <h2>Resident permit</h2>
-            <h2>/ˈrezɪdənt pərˌmɪt/</h2>
-            <h2>Giấy phép cư trú</h2>
-            <p>...</p>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-            <button class="speak-btn" data-text="...">🔊 Listen</button>
-            <button class="speak-btn secondary" data-text="...">
-              🔊 Listen
-            </button>
-          </article>
+          // Show card if search text is found
+          if (cardText.includes(textQuery)) {
+            card.style.display = "";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      }
 
-          <article class="scene-card">
-            <div class="scene-illustration">🪑</div>
-            <h2>Identity card</h2>
-            <h2>/aɪˈdentɪti kɑːrd/</h2>
-            <h3>Chứng minh nhân dân/ Căn cước công dân</h3>
-            <p>...</p>
-            <ul>
-              <li>...</li>
-              <li>...</li>
-            </ul>
-            <button class="speak-btn" data-text="...">🔊 Listen</button>
-            <button class="speak-btn secondary" data-text="...">
-              🔊 Listen
-            </button>
-          </article>
+      // Search button
+      searchButton.addEventListener("click", applyFilters);
 
+      // Search when pressing Enter
+      searchBox.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+          applyFilters();
+        }
+      });
 
-        </div>
-      </section>
-    </main>
+      // Clear search
+      clearFilterBtn.addEventListener("click", function() {
+        searchBox.value = "";
+
+        cards.forEach(card => {
+          card.style.display = "";
+        });
+
+        searchBox.focus();
+      });
+    </script>
 
     <script src="../index.js"></script>
   </body>
