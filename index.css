@@ -159,7 +159,8 @@ header.hero {
 
 .hero-text {
   display: flex;
-  margin: 0 auto;
+  position: sticky;
+  /*margin: 0 auto;*/
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -731,7 +732,7 @@ h1 {
   .hero,
   .info-strip,
   .card-grid, .card-grid-P1, .card-grid-P2, .card-grid-P3 {
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr;
   }
 }
 
