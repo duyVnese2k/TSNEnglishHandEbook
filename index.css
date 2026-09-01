@@ -159,9 +159,9 @@ header.hero {
 }
 
 .hero-text {
-  display: flex;
+  display: block;
   /*position: sticky;*/
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   flex-wrap: wrap;
   text-align: center;
   width: 100%;
@@ -205,6 +205,7 @@ header.hero {
   margin: 0 auto;
   Padding: 1.0rem;
   background: none;
+  
 }
 
 
