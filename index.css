@@ -203,6 +203,8 @@ header.hero {
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(20, 33, 61, 0.14);
   margin: 0 auto;
+  Padding: 1.0rem;
+  background: none;
 }
 
 
@@ -695,16 +697,22 @@ h1 {
   text-align: center;
   padding: 1.3rem 1rem 1.6rem;
   margin-top: 1rem;
+  font-family: 'Times New Roman', Times, serif
 }
 
 #End-page {
   margin: 0 0 0.35rem;
   font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 }
 
 #footer-note {
   margin: 0;
   opacity: 0.9;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
